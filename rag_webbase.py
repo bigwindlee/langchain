@@ -4,6 +4,9 @@ https://python.langchain.com/docs/tutorials/rag/
 
 LOGS:
     2024-10-07 worked.
+    
+要点：
+  - RunnableSequence（即执行链）通过重载 | 运算符，将不同的步骤或组件串联起来，形成一个流水线。
 """
 from langchain_chroma import Chroma
 from langchain_community.document_loaders import WebBaseLoader
